@@ -2,6 +2,6 @@
 #### 1.1 万物皆元素
 #### 1.2 应用场景
 #### 1.3 Polymer Starter Kit
-#### 1.4 First App
+#### 1.4 第一个应用
 
 ### To be continue..
