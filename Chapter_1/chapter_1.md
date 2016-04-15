@@ -1,6 +1,6 @@
 #### 1.1 万物皆元素
 
-Polymer，英文直译为"聚合物"，是Google在2013年的Google I/O大会上发布的一款面向未来的Web Component Library。它主张以开发可重用、高度抽象的[Web组件](https://en.wikipedia.org/wiki/Web_Components)的方式来构建Web应用。
+[Polymer](https://www.polymer-project.org/)，英文直译为"聚合物"，是Google在2013年的Google I/O大会上发布的一款面向未来的Web Component Library。它主张以开发可重用、高度抽象的[Web组件](https://en.wikipedia.org/wiki/Web_Components)的方式来构建Web应用。
 
 Web组件实际上是W3C定义的一个未来标准，目前还处于草案阶段，但各大浏览器已经开始支持。它给了前端开发者扩展浏览器标签的能力，可以自由的定制组件，更好的进行模块化开发，彻底解放了前端开发者的生产力。关于Web组件这块，有兴趣的朋友还可以转到以下链接来了解更多的细节：https://css-tricks.com/modular-future-web-components/
 
