@@ -50,7 +50,7 @@ Polymer官方在[Polymer 1.0](https://developers.googleblog.com/2015/05/polymer-
 ```
 在Chrome浏览器上输入`127.0.0.1:3000`后看到的即Polymer starter kit的UI，的确它非常简单，也正因为如此，这个工具的完整代码能够给初学者很好的引导作用，而且也如页面中显示的内容那样，Polymer starter kit为用户提供了非常完整的生产环境标准的应用示例。关于Polymer starter kit，后面章节还将详细介绍，并且一些Polymer的特性和代码demo也将基于此工具实现，在此之前，强烈建议读者朋友先行部署安装对应环境。
 
-备注：关于初学者工具，其实在Polymer 0.5版本时代还有一个很优秀的产品[Polymer designer](https://polymer-designer.appspot.com/)，这其实可以给前端开发者们以“UI工程师借此实现原型 => 前端工程师实际实现业务逻辑”这样的创新工作流，可惜，Polymer 1.0（更准确来说是v0.8+）开始，Custom Element的定义格式完全变样（这一点也非常值得吐槽...），并且创建了[Elements Catalog](https://elements.polymer-project.org/)，因此，Polymer designer tool还[未能加入对新版本的支持](https://github.com/Polymer/designer#status)，官方repo上也有对应[issue](https://github.com/Polymer/designer#status)，期待这款工具的更新。
+备注：关于初学者工具，其实在Polymer 0.5版本时代还有一个很优秀的产品[Polymer designer](https://polymer-designer.appspot.com/)，这其实可以给前端开发者们以“UI工程师借此实现原型 => 前端工程师实际实现业务逻辑”这样的创新工作流，可惜，Polymer 1.0（更准确来说是v0.8+）开始，Custom Element的定义格式完全变样（这一点也非常值得吐槽...），并且创建了[Elements Catalog](https://elements.polymer-project.org/)，因此，Polymer designer tool还[未能加入对新版本的支持](https://github.com/Polymer/designer#status)，官方repo上也有对应[issue](https://github.com/Polymer/designer/issues/153)，期待这款工具的更新。
 
 #### 1.4 关于兼容性
 
