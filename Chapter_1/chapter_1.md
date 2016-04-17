@@ -37,18 +37,33 @@ Polymer官方在[Polymer 1.0](https://developers.googleblog.com/2015/05/polymer-
 
 对于Polymer starter kit，目前也有两种安装方式，第一种自然是传统的下载zip方式：
 ```
-#To be filled
+# 可能墙，mac下面可以尝试一下proxychains配合ss来下载
+wget -O <your_app_dir_&_detail_zip_name> https://github.com/PolymerElements/polymer-starter-kit/releases/download/v1.3.0/polymer-starter-kit-light-1.3.0.zip
 ```
-当然，用户也可以第二种更加优雅的方式，使用Yoeman来完成下载和安装：
+当然，用户也可以第二种更加优雅的方式，使用[Yoeman](http://yeoman.io/)（更详细的polymer yo scaffold请参见这个[Github 链接](https://github.com/yeoman/generator-polymer)的介绍）来完成下载和安装：
 ```
-#To be filled
+# 如果你还未安装yo的话，可以通过如下命令先行安装这款工具
+npm install -g yo
+
+# install the generator
+npm install -g generator-polymer
+
+# yo the polymer scaffold
+cd <your_app_dir>
+yo polymer
+
+# then follow its steps..
 ```
 
-完成下载后可以通过以下命令来实际在本地（笔者在mac Yosemite下测试ok）运行该款工具：
+完成下载后可以通过以下命令来实际在本地（笔者在mac Yosemite下测试ok）运行该款工具（当然，实在不能下载的话，笔者这边也提供一个下载好的zip，放到了[Github 这里](https://github.com/Colstuwjx/polymer-tutorial/blob/master/Chapter_1/code/polymer-starter-kit-light-1.3.0.zip)）：
 ```
-#To be filled
+# 使用yo构建方式的话，可以使用gulp来serve，这样的好处是代码的更改可以立即生效，端口5000
+gulp serve
+
+# 或者使用python SimpleHTTPServer module
+python -m SimpleHTTPServer 5000
 ```
-在Chrome浏览器上输入`127.0.0.1:3000`后看到的即Polymer starter kit的UI，的确它非常简单，也正因为如此，这个工具的完整代码能够给初学者很好的引导作用，而且也如页面中显示的内容那样，Polymer starter kit为用户提供了非常完整的生产环境标准的应用示例。关于Polymer starter kit，后面章节还将详细介绍，并且一些Polymer的特性和代码demo也将基于此工具实现，在此之前，强烈建议读者朋友先行部署安装对应环境。
+在Chrome浏览器上输入`127.0.0.1:5000`后看到的即Polymer starter kit的UI，的确它非常简单，也正因为如此，这个工具的完整代码能够给初学者很好的引导作用，而且也如页面中显示的内容那样，Polymer starter kit为用户提供了非常完整的生产环境标准的应用示例。关于Polymer starter kit，后面章节还将详细介绍，并且一些Polymer的特性和代码demo也将基于此工具实现，在此之前，强烈建议读者朋友先行部署安装对应环境。
 
 备注：关于初学者工具，其实在Polymer 0.5版本时代还有一个很优秀的产品[Polymer designer](https://polymer-designer.appspot.com/)，这其实可以给前端开发者们以“UI工程师借此实现原型 => 前端工程师实际实现业务逻辑”这样的创新工作流，可惜，Polymer 1.0（更准确来说是v0.8+）开始，Custom Element的定义格式完全变样（这一点也非常值得吐槽...），并且创建了[Elements Catalog](https://elements.polymer-project.org/)，因此，Polymer designer tool还[未能加入对新版本的支持](https://github.com/Polymer/designer#status)，官方repo上也有对应[issue](https://github.com/Polymer/designer/issues/153)，期待这款工具的更新。
 
