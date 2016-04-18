@@ -39,6 +39,9 @@ Polymer官方在[Polymer 1.0](https://developers.googleblog.com/2015/05/polymer-
 ```
 # 可能墙，mac下面可以尝试一下proxychains配合ss来下载
 wget -O <your_app_dir_&_detail_zip_name> https://github.com/PolymerElements/polymer-starter-kit/releases/download/v1.3.0/polymer-starter-kit-light-1.3.0.zip
+
+# unzip to app dir
+unzip <zip_name>
 ```
 当然，用户也可以第二种更加优雅的方式，使用[Yoeman](http://yeoman.io/)（更详细的polymer yo scaffold请参见这个[Github 链接](https://github.com/yeoman/generator-polymer)的介绍）来完成下载和安装：
 ```
