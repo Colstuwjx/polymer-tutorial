@@ -7,6 +7,9 @@ Web组件实际上是W3C定义的一个未来标准，目前还处于草案阶�
 
 时下许多的现代Web框架，如AngularJS，采用的是融合双向数据绑定 + 依赖注入的前端MVC模式来构建用户界面，ReactJS更是实现了一套自己的所谓的VirtualDOM，与这些框架不同的是，Polymer将视角放在了最本源的[DOM](https://en.wikipedia.org/wiki/Document_Object_Model)上，它认为: `DOM is the Framework`，并且通过提供polyfill类库（现已更名为`webcomponents.js`）来支持面向未来的[Web组件标准](http://webcomponents.org/)，使得Web开发者们可以基于此实现一套全新的前端开发模式。
 
+Polymer与Web Component之间的关系可以直观地用下图表示：
+![Polymer & Web Component](https://github.com/Colstuwjx/polymer-tutorial/blob/master/Chapter_1/code/polymer-arch.svg)
+
 在Polymer的世界里，`everything is an element.`
 在这里面，Polymer扮演的角色正是一个library，它为开发者们带来了以下几个激动人心的特性（而这些统统都是着眼于DOM本身）：
 
