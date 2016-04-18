@@ -60,10 +60,10 @@ yo polymer
 
 # follow its steps..
 # ask you add web-component test tool.
-# Would you like to include web-component-test
-er? (Y/n)
+Would you like to include web-component-test
+er? (Y/n) Y
 # ask you add the docs
-# Would you like to include recipe docs? (Y/n)
+Would you like to include recipe docs? (Y/n) Y
 # then, be patient with it.
 
 ```
