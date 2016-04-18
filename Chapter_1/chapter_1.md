@@ -58,7 +58,14 @@ npm install -g generator-polymer
 cd <your_app_dir>
 yo polymer
 
-# then follow its steps..
+# follow its steps..
+# ask you add web-component test tool.
+# Would you like to include web-component-test
+er? (Y/n)
+# ask you add the docs
+# Would you like to include recipe docs? (Y/n)
+# then, be patient with it.
+
 ```
 
 完成下载后可以通过以下命令来实际在本地（笔者在mac Yosemite下测试ok）运行该款工具（当然，实在不能下载的话，笔者这边也提供一个下载好的zip，放到了[Github 这里](https://github.com/Colstuwjx/polymer-tutorial/blob/master/Chapter_1/code/polymer-starter-kit-light-1.3.0.zip)）：
