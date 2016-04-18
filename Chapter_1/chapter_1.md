@@ -10,7 +10,7 @@ Web组件实际上是W3C定义的一个未来标准，目前还处于草案阶�
 Polymer与Web Component之间的关系可以直观地用下图表示：
 ![Polymer & Web Component](https://github.com/Colstuwjx/polymer-tutorial/blob/master/Chapter_1/code/polymer-arch.png)
 
-在Polymer的世界里，`everything is an element.`
+正如上图所示，在Polymer的世界里，`everything is an element.`
 在这里面，Polymer扮演的角色正是一个library，它为开发者们带来了以下几个激动人心的特性（而这些统统都是着眼于DOM本身）：
 
 * HTML imports：在其他HTML document中引入和重用HTML document的方法；
